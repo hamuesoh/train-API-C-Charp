@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\War\\Code\\test\\Train_API\\Train_API\\Train_API.csproj": {}
+    "D:\\Code\\Train\\train-API-C-Charp\\Train_API\\Train_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\War\\Code\\test\\Train_API\\Train_API\\Train_API.csproj": {
+    "D:\\Code\\Train\\train-API-C-Charp\\Train_API\\Train_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\War\\Code\\test\\Train_API\\Train_API\\Train_API.csproj",
+        "projectUniqueName": "D:\\Code\\Train\\train-API-C-Charp\\Train_API\\Train_API.csproj",
         "projectName": "Train_API",
-        "projectPath": "C:\\Users\\User\\Desktop\\War\\Code\\test\\Train_API\\Train_API\\Train_API.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\War\\Code\\test\\Train_API\\Train_API\\obj\\",
+        "projectPath": "D:\\Code\\Train\\train-API-C-Charp\\Train_API\\Train_API.csproj",
+        "packagesPath": "C:\\Users\\Ghost\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Train\\train-API-C-Charp\\Train_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ghost\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

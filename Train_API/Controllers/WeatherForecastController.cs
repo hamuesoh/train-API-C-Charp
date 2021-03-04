@@ -35,5 +35,12 @@ namespace Train_API.Controllers
             })
             .ToArray();
         }
+
+        [HttpGet]
+        [Route("gett")]
+        public String GetNew()
+        {
+            return "55555555555";
+        }
     }
 }
