@@ -23,15 +23,14 @@
     "warningsAsErrors": false,
     "optimize": false,
     "keyFile": "",
-    "emitEntryPoint": true,
+    "emitEntryPoint": false,
     "xmlDoc": false,
     "debugType": "portable"
   },
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Train_API/1.0.0": {
+      "Ecommerce/1.0.0": {
         "dependencies": {
-          "Ecommerce": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -315,14 +314,6 @@
           "System.Xml.XPath.XDocument": "4.1.2.0",
           "WindowsBase": "4.0.0.0"
         },
-        "runtime": {
-          "Train_API.dll": {}
-        },
-        "compile": {
-          "Train_API.dll": {}
-        }
-      },
-      "Ecommerce/1.0.0": {
         "runtime": {
           "Ecommerce.dll": {}
         },
@@ -2025,11 +2016,6 @@
     }
   },
   "libraries": {
-    "Train_API/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Ecommerce/1.0.0": {
       "type": "project",
       "serviceable": false,

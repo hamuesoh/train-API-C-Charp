@@ -1,33 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "Ecommerce/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Ecommerce.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Ecommerce.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "Ecommerce/1.0.0": {
-      "type": "project",
-      "path": "../Ecommerce/Ecommerce.csproj",
-      "msbuildProject": "../Ecommerce/Ecommerce.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "Ecommerce >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\Ghost\\.nuget\\packages\\": {}
@@ -35,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\Train\\train-API-C-Charp\\Train_API\\Train_API.csproj",
-      "projectName": "Train_API",
-      "projectPath": "D:\\Code\\Train\\train-API-C-Charp\\Train_API\\Train_API.csproj",
+      "projectUniqueName": "D:\\Code\\Train\\train-API-C-Charp\\Ecommerce\\Ecommerce.csproj",
+      "projectName": "Ecommerce",
+      "projectPath": "D:\\Code\\Train\\train-API-C-Charp\\Ecommerce\\Ecommerce.csproj",
       "packagesPath": "C:\\Users\\Ghost\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\Train\\train-API-C-Charp\\Train_API\\obj\\",
+      "outputPath": "D:\\Code\\Train\\train-API-C-Charp\\Ecommerce\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ghost\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,11 +33,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {
-            "D:\\Code\\Train\\train-API-C-Charp\\Ecommerce\\Ecommerce.csproj": {
-              "projectPath": "D:\\Code\\Train\\train-API-C-Charp\\Ecommerce\\Ecommerce.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

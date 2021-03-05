@@ -38,3 +38,6 @@ D:\Code\Train\train-API-C-Charp\Train_API\obj\Debug\netcoreapp3.1\Train_API.Razo
 D:\Code\Train\train-API-C-Charp\Train_API\obj\Debug\netcoreapp3.1\Train_API.dll
 D:\Code\Train\train-API-C-Charp\Train_API\obj\Debug\netcoreapp3.1\Train_API.pdb
 D:\Code\Train\train-API-C-Charp\Train_API\obj\Debug\netcoreapp3.1\Train_API.genruntimeconfig.cache
+D:\Code\Train\train-API-C-Charp\Train_API\bin\Debug\netcoreapp3.1\Ecommerce.dll
+D:\Code\Train\train-API-C-Charp\Train_API\bin\Debug\netcoreapp3.1\Ecommerce.pdb
+D:\Code\Train\train-API-C-Charp\Train_API\obj\Debug\netcoreapp3.1\Train_API.csproj.CopyComplete

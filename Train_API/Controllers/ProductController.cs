@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Ecommerce.Models.Product;
+using Ecommerce.Responses;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -14,8 +16,15 @@ namespace Train_API.Controllers
         [Route("test")]
         public IActionResult GetDetail()
         {
-            //var response = new BaseResponse();
-            return Ok("555");
+            var response = new BaseResponse();
+            var detail = new ProductDetailModel()
+            {
+                id = 1,
+                productName= "Iohone 11"
+            };
+            //response = response.Success(detail);
+
+            return Ok(response.Success(detail));
         }
     }
 }
