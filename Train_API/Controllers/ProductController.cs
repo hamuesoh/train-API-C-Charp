@@ -1,4 +1,5 @@
 ﻿using Ecommerce.Models.Product;
+using Ecommerce.Repositories;
 using Ecommerce.Responses;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -22,9 +23,9 @@ namespace Train_API.Controllers
                 id = 1,
                 productName= "Iohone 11"
             };
-            //response = response.Success(detail);
-
-            return Ok(response.Success(detail));
+            var city = new ProductRepository();
+            var tlll = city.GetProductName(5558);
+            return Ok(tlll);
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Ecommerce.Helpers.DBHelpers;
+using SqlKata.Execution;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -12,9 +14,9 @@ namespace Ecommerce.Repositories
         {
             try
             {
-                //var result = new DBConnection();
+                var result = new DBConnection().Connet().Query(Table.City).Get<string>().FirstOrDefault();
                 string kkk = productId.ToString();
-                return kkk;
+                return result;
 
             }
             catch(Exception ex)
